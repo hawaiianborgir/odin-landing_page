@@ -40,3 +40,14 @@ body {
     flex-direction: column;
     text-decoration: none;
 }
+
+.body1 {
+    display: flex;
+}
+
+.body1 > .textbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
