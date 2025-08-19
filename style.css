@@ -22,3 +22,21 @@ li a, button a{
 
 /* flextime! */
 
+.header {
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    gap: 15px;
+}
+
+body {
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
