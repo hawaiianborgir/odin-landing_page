@@ -1,0 +1,24 @@
+/* debug line */
+.header, 
+.body,
+.footer {border: 2px solid red;}
+
+.body1,
+.body2,
+.body3,
+.body4 {border: 3px solid rgb(39, 17, 183);}
+
+/* initial setup */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a, button a{
+    text-decoration: none;
+}
+
+/* flextime! */
+
