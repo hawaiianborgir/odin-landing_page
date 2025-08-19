@@ -56,8 +56,16 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 15px;
+    padding: 15px;
 }
 
 .imgbox {
     display: flex;
+    gap: 30px;
+    flex: 1 1 auto;
+}
+
+.img {
+    flex: 0 0 200px;
 }
