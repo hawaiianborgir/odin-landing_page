@@ -69,3 +69,13 @@ body {
 .img {
     flex: 0 0 200px;
 }
+
+.body3 {
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+}
+
+.name {
+    align-self: flex-end;
+}
