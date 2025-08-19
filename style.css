@@ -72,10 +72,20 @@ body {
 
 .body3 {
     display: flex;
-    padding: 15px;
+    padding: 15px 100px;
     flex-direction: column;
 }
 
 .name {
     align-self: flex-end;
+}
+
+.body4 {
+    padding: 50px;
+}
+
+.wrapper {
+    display: flex;
+    background-color: #3882F6;
+    color: white;
 }
