@@ -16,10 +16,6 @@ ul {
     padding: 0;
 }
 
-li a, button a{
-    text-decoration: none;
-}
-
 /* flextime! */
 
 .header {
@@ -27,6 +23,12 @@ li a, button a{
     padding: 15px;
     justify-content: space-between;
     align-items: center;
+    background-color: #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 ul{
@@ -34,9 +36,10 @@ ul{
     gap: 15px;
 }
 
-.logo {
-    font-size: 24px;
-    color: #F9FAF8;
+li a, button a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 body {
