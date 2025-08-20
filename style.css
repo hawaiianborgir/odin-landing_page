@@ -9,18 +9,20 @@
 .promo {border: 3px solid rgb(39, 17, 183);}
 
 /* initial setup */
-
-ul {
-    list-style-type: none;
+body {
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
     margin: 0;
-    padding: 0;
+    min-height: 100vh;
 }
 
-/* flextime! */
+/* HEADER */
 
 .header {
     display: flex;
-    padding: 15px;
+    padding: 15px 50px;
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
@@ -32,6 +34,9 @@ ul {
 }
 
 ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     display: flex;
     gap: 15px;
 }
@@ -42,15 +47,14 @@ li a, button a{
     color: #E5E7EB;
 }
 
-body {
-    font-family: Roboto;
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-}
+/* HERO */
 
 .hero {
     display: flex;
+    padding: 15px 100px;
+    background-color: #1F2937;
+    gap: 15px;
+    justify-content: center;
 }
 
 .hero > .textbox {
@@ -58,7 +62,22 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    flex: 0 0 450px;
+    gap: 15px;
 }
+
+.hero__intro {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero__text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* FEATURE */
 
 .feature {
     display: flex;
