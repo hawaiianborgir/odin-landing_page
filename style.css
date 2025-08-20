@@ -3,10 +3,10 @@
 .body,
 .footer {border: 2px solid red;}
 
-.body1,
-.body2,
-.body3,
-.body4 {border: 3px solid rgb(39, 17, 183);}
+.hero,
+.feature,
+.quote,
+.promo {border: 3px solid rgb(39, 17, 183);}
 
 /* initial setup */
 
@@ -34,6 +34,11 @@ ul{
     gap: 15px;
 }
 
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
 body {
     font-family: Roboto;
     display: flex;
@@ -41,18 +46,18 @@ body {
     text-decoration: none;
 }
 
-.body1 {
+.hero {
     display: flex;
 }
 
-.body1 > .textbox {
+.hero > .textbox {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
 }
 
-.body2 {
+.feature {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -70,7 +75,7 @@ body {
     flex: 0 0 200px;
 }
 
-.body3 {
+.quote {
     display: flex;
     padding: 15px 100px;
     flex-direction: column;
@@ -80,7 +85,7 @@ body {
     align-self: flex-end;
 }
 
-.body4 {
+.promo {
     padding: 50px;
 }
 
