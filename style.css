@@ -47,6 +47,10 @@ li a, button a{
     color: #E5E7EB;
 }
 
+a:hover {
+  color: #3882F6;
+}
+
 /* HERO */
 
 .hero {
