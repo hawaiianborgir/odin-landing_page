@@ -71,6 +71,10 @@ a:hover {
     gap: 15px;
 }
 
+.tojo {
+    align-self: center;
+}
+
 .hero__intro {
     font-size: 48px;
     color: #F9FAF8;
