@@ -38,7 +38,7 @@ ul{
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 15px;
+    gap: 25px;
 }
 
 li a, button a{
@@ -51,10 +51,11 @@ li a, button a{
 
 .hero {
     display: flex;
-    padding: 50px 100px;
+    padding: 50px 0px;
     background-color: #1F2937;
     gap: 15px;
     justify-content: center;
+    flex-wrap: wrap-reverse;
 }
 
 .hero__textbox {
@@ -98,8 +99,9 @@ li a, button a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
-    padding: 50px 100px;
+    gap: 50px;
+    padding: 50px 0px;
+    align-content: center;
 }
 
 .title {
@@ -108,11 +110,12 @@ li a, button a{
     font-weight: 900;
 }
 
-
 .imgbox {
     display: flex;
     gap: 30px;
     flex: 1 1 auto;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .img {
@@ -169,6 +172,7 @@ li a, button a{
     padding: 40px 80px;
     border-radius: 5px;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .promo__textbox {
