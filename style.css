@@ -129,18 +129,30 @@ li a, button a{
 
 .feature__text {
     text-align: center;
+    font-size: 18px;
 }
 
 /* QUOTE */
 
 .quote {
     display: flex;
-    padding: 15px 100px;
+    padding: 80px 100px;
     flex-direction: column;
+    background-color: #E5E7EB;
+    gap: 15px;
 }
 
-.name {
+.quote__text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.quote__name {
     align-self: flex-end;
+    color: #1F2937;
+    font-weight: bold;
 }
 
 /* PROMOTION */
