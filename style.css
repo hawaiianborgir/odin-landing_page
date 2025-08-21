@@ -55,9 +55,9 @@ a:hover {
 
 .hero {
     display: flex;
-    padding: 50px 15px;
+    padding: 50px 10px;
     background-color: #1F2937;
-    gap: 15px;
+    gap: 45px;
     justify-content: center;
     flex-wrap: wrap-reverse;
 }
