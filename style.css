@@ -51,7 +51,7 @@ li a, button a{
 
 .hero {
     display: flex;
-    padding: 15px 100px;
+    padding: 50px 100px;
     background-color: #1F2937;
     gap: 15px;
     justify-content: center;
@@ -99,7 +99,7 @@ li a, button a{
     flex-direction: column;
     align-items: center;
     gap: 15px;
-    padding: 15px;
+    padding: 50px 100px;
 }
 
 .title {
@@ -116,9 +116,22 @@ li a, button a{
 }
 
 .img {
+    display: flex;
     flex: 0 0 200px;
-    border-radius: 8px;
+    gap: 10px;
+    flex-direction: column;
 }
+
+.feature__picture {
+    border-radius: 8px;
+    border:2px solid #3882F6 ;
+}
+
+.feature__text {
+    text-align: center;
+}
+
+/* QUOTE */
 
 .quote {
     display: flex;
@@ -129,6 +142,8 @@ li a, button a{
 .name {
     align-self: flex-end;
 }
+
+/* PROMOTION */
 
 .promo {
     padding: 50px;
