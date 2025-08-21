@@ -1,12 +1,12 @@
 /* debug line */
-.header, 
+/* .header, 
 .body,
 .footer {border: 2px solid red;}
 
 .hero,
 .feature,
 .quote,
-.promo {border: 3px solid rgb(39, 17, 183);}
+.promo {border: 3px solid rgb(39, 17, 183);} */
 
 /* initial setup */
 body {
@@ -57,7 +57,7 @@ li a, button a{
     justify-content: center;
 }
 
-.hero > .textbox {
+.hero__textbox {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -152,17 +152,52 @@ li a, button a{
 .quote__name {
     align-self: flex-end;
     color: #1F2937;
+    font-size: 18px;
     font-weight: bold;
 }
 
 /* PROMOTION */
 
 .promo {
-    padding: 50px;
+    padding: 50px 100px;
 }
 
 .wrapper {
     display: flex;
     background-color: #3882F6;
-    color: white;
+    color: #F9FAF8;
+    padding: 40px 80px;
+    border-radius: 5px;
+    gap: 30px;
+}
+
+.promo__textbox {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.promo__intro {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.promo__text {
+    font-size: 15px;
+}
+
+.promo__button {
+    border: 2px solid #F9FAF8;
+    padding: 10px 0;
+    flex: 0 0 160px;
+    align-self: center;
+}
+
+/* FOOTER */
+.footer {
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    color: #F9FAF8;
+    background-color: #1F2937;
 }
