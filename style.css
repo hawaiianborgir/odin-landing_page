@@ -77,6 +77,21 @@ li a, button a{
     color: #E5E7EB;
 }
 
+.preorder {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.preorder:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+}
+
 /* FEATURE */
 
 .feature {
@@ -87,6 +102,13 @@ li a, button a{
     padding: 15px;
 }
 
+.title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+
 .imgbox {
     display: flex;
     gap: 30px;
@@ -95,6 +117,7 @@ li a, button a{
 
 .img {
     flex: 0 0 200px;
+    border-radius: 8px;
 }
 
 .quote {
